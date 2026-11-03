@@ -1,4 +1,4 @@
-﻿# Паттерны программирования в Godot
+﻿# <img src="./icon.svg" width="30"> Паттерны программирования в Godot
 Russian | [English](./README.md)
 
 Адаптация паттернов в Godot из книги [Шаблоны игрового программирования Роберта Найстрома](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya).

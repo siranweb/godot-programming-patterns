@@ -1,7 +1,10 @@
-﻿# Godot Programming Patterns
+﻿# <img src="./icon.svg" width="30"> Godot Programming Patterns
 [Russian](./README_RU.md) | English
 
 This is Godot adaption of patterns of [Game Programming Patterns by Robert Nystrom](https://gameprogrammingpatterns.com/contents.html) book.
+
+
+
 
 Prepared using **Godot v4.7.2**.
 
