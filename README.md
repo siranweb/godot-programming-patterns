@@ -1,12 +1,11 @@
-﻿# <img src="./icon.svg" width="30"> Godot Programming Patterns
+﻿# <img src="./icon.svg" width="24"> Godot Programming Patterns
 [Russian](./README_RU.md) | English
 
 This is Godot adaption of patterns of [Game Programming Patterns by Robert Nystrom](https://gameprogrammingpatterns.com/contents.html) book.
 
-
-
-
 Prepared using **Godot v4.7.2**.
+
+![cover](https://gameprogrammingpatterns.com/images/splash.jpg)
 
 ## How to use it
 * Download this repository and open it with Godot.
