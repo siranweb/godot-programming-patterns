@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://2m0xxtmdjcsr"]
+
+[ext_resource type="Script" uid="uid://b0lqn3kfbnkn" path="res://01_command/units/unit_long/unit_long.gd" id="1_k8xkb"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0j047"]
+load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+
+[node name="UnitLong" type="Node2D" unique_id=862628117]
+script = ExtResource("1_k8xkb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1861736111]
+self_modulate = Color(1.92523e-06, 0.7253954, 0.8898629, 1)
+scale = Vector2(0.5, 0.5)
+texture = SubResource("CompressedTexture2D_0j047")

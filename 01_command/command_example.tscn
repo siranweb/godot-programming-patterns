@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://dj68x3du2ypyi"]
+
+[ext_resource type="Script" uid="uid://dpa8nwurn4uu2" path="res://01_command/command_example.gd" id="1_d32gk"]
+[ext_resource type="PackedScene" uid="uid://2m0xxtmdjcsr" path="res://01_command/units/unit_long/unit_long.tscn" id="2_d32gk"]
+[ext_resource type="PackedScene" uid="uid://dndxl0yqpu8b0" path="res://01_command/units/unit_short/unit_short.tscn" id="3_6u6fd"]
+
+[node name="CommandExample" type="Node2D" unique_id=244879555]
+script = ExtResource("1_d32gk")
+
+[node name="UnitLong" parent="." unique_id=862628117 instance=ExtResource("2_d32gk")]
+position = Vector2(800, 288)
+
+[node name="UnitShort" parent="." unique_id=1936928507 instance=ExtResource("3_6u6fd")]
+position = Vector2(351, 288)
+
+[node name="Label" type="Label" parent="." unique_id=1823111388]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Red moves with 16 pixels per step
+Blue moves with 48 pixels per step
+
+WASD - move
+TAB - switch units
+CTRL+Z - cancel move"
+
+[node name="CurrentUnitLabel" type="Label" parent="." unique_id=748730306]
+offset_left = 1005.0
+offset_top = 1.0
+offset_right = 1280.0
+offset_bottom = 24.0
+horizontal_alignment = 2
