@@ -1,4 +1,5 @@
 extends Node2D
+class_name PrototypeExample
 
 const _GHOST_SCENE: PackedScene = preload("res://03_prototype/monsters/ghost/ghost.tscn")
 const _DEMON_SCENE: PackedScene = preload("res://03_prototype/monsters/demon/demon.tscn")
