@@ -34,3 +34,10 @@ Renders 100k [Sprite2D](https://docs.godotengine.org/en/stable/classes/class_spr
 
 ### Observer [[Book](https://gameprogrammingpatterns.com/observer.html)]
 No example. Natively implemented as [signals](https://docs.godotengine.org/en/stable/getting_started/introduction/key_concepts_overview.html#signals).
+
+### [Prototype](./03_prototype) [[Book](https://gameprogrammingpatterns.com/prototype.html)]
+Scene: `03_prototype/prototype_example.tscn`
+
+Implemented using [`Node.duplicate()`](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-duplicate). Spawns 2 types of monsters after a certain time interval.
+
+![prototype_example](./docs/assets/prototype_example.jpg)

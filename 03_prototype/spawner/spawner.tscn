@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://4ropogtvf73q"]
+
+[ext_resource type="Script" uid="uid://cygqmltgi406h" path="res://03_prototype/spawner/spawner.gd" id="1_lck35"]
+
+[sub_resource type="Gradient" id="Gradient_lck35"]
+offsets = PackedFloat32Array(0, 0.16853933, 0.19550562)
+colors = PackedColorArray(0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_1tg7t"]
+gradient = SubResource("Gradient_lck35")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[node name="Spawner" type="Node2D" unique_id=1855808145]
+script = ExtResource("1_lck35")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1884173458]
+texture = SubResource("GradientTexture2D_1tg7t")
+
+[node name="Timer" type="Timer" parent="." unique_id=895470744]
+autostart = true

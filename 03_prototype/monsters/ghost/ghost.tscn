@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cswesdtcrekdo"]
+
+[ext_resource type="Script" uid="uid://crklwuj4ym3rn" path="res://03_prototype/monsters/ghost/ghost.gd" id="1_uxvn8"]
+[ext_resource type="Texture2D" uid="uid://7xwlvqgg1mcu" path="res://icon.svg" id="2_a6jb8"]
+
+[node name="Ghost" type="Node2D" unique_id=865885344]
+script = ExtResource("1_uxvn8")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=222263847]
+self_modulate = Color(1.8247963, 1.8247963, 1.8247963, 0.39215687)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_a6jb8")

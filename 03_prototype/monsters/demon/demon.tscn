@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c525bartyftx8"]
+
+[ext_resource type="Script" uid="uid://ck1sr5sfbc0ff" path="res://03_prototype/monsters/demon/demon.gd" id="1_4rx2x"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_4rx2x"]
+load_path = "res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
+
+[node name="Demon" type="Node2D" unique_id=1278116255]
+script = ExtResource("1_4rx2x")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1527170618]
+self_modulate = Color(0.9999998, 0.31764543, 0.31053862, 1)
+scale = Vector2(0.5, 0.5)
+texture = SubResource("CompressedTexture2D_4rx2x")

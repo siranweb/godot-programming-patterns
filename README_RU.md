@@ -34,3 +34,10 @@ Russian | [English](./README.md)
 
 ### Наблюдатель (Observer) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/obzor-shablonov-proektirovaniya/nablyudatel-observer)]
 Пример отсутствует. Нативно реализован в виде [сигналов](https://docs.godotengine.org/ru/4.x/getting_started/introduction/key_concepts_overview.html#signals).
+
+### [Прототип (Prototype)](./03_prototype) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/obzor-shablonov-proektirovaniya/prototip-prototype)]
+Сцена: `03_prototype/prototype_example.tscn`
+
+Реализован с помощью [`Node.duplicate()`](https://docs.godotengine.org/ru/4.x/classes/class_node.html#class-node-method-duplicate). Спавнит 2 типа монстров через промежуток времени.
+
+![prototype_example](./docs/assets/prototype_example.jpg)
