@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dulpte5se3ite"]
+
+[ext_resource type="Script" uid="uid://245rxel2md54" path="res://02_flyweight/bad_example.gd" id="1_yrsao"]
+
+[node name="BadExample" type="Node2D" unique_id=47382785]
+script = ExtResource("1_yrsao")
