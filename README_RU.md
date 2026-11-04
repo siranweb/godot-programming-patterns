@@ -41,3 +41,24 @@ Russian | [English](./README.md)
 Реализован с помощью [`Node.duplicate()`](https://docs.godotengine.org/ru/4.x/classes/class_node.html#class-node-method-duplicate). Спавнит 2 типа монстров через промежуток времени.
 
 ![prototype_example](./docs/assets/prototype_example.jpg)
+
+### Синглтон (Singleton) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/obzor-shablonov-proektirovaniya/singlton-singleton)]
+Пример отсутствует. Может быть легко реализован с помощью [автозагрузки (autoload)](https://docs.godotengine.org/ru/4.x/tutorials/scripting/singletons_autoload.html).
+Лучше обратить внимание на причины, почему автор не рекомендует его использовать.
+
+### [Состояние (State)](./04_state) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/obzor-shablonov-proektirovaniya/sostoyanie-state#ierarkhicheskaya-mashina-sostoyanii-ili-ierarkhicheskii-avtomat)]
+Сцена: `04_state/fsm_example.tscn`
+
+Простая реализация двигающегося [CharacterBody2D](https://docs.godotengine.org/ru/4.x/classes/class_characterbody2d.html) с использованием конечных автоматов (Finite State Machine).
+
+Также, обратите внимание на другие реализации FSM: [gdquest](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/), [gd-YAFSM](https://github.com/imjp94/gd-YAFSM), [Machina](https://github.com/sempitern0/machina)... Их очень много.
+
+![fsm_example](./docs/assets/fsm_example.jpg)
+
+Сцена: `04_state/csm_example.tscn`
+
+Простая реализация двигающегося [CharacterBody2D](https://docs.godotengine.org/ru/4.x/classes/class_characterbody2d.html) с атаками оружия используя несколько FSM (Конкурентный автомат, Concurrent State Machines).
+
+![csm_example](./docs/assets/csm_example.jpg)
+
+*Я слишком ленивый для реализации Иерархичной (Hierarchical) или С магазинной памятью (Pushdown Automata). Это не сильно сложнее когда понимаешь принцип простых FSM.*

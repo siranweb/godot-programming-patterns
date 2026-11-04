@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://c25yr1bq51kk0"]
+
+[ext_resource type="PackedScene" uid="uid://c1jnqo87t11oy" path="res://04_state/level/level.tscn" id="1_6aba7"]
+[ext_resource type="PackedScene" uid="uid://bdssvda52s2wr" path="res://04_state/hero/hero.tscn" id="2_w5vsx"]
+[ext_resource type="Script" uid="uid://bvfshredirehb" path="res://04_state/hero/csm_hero.gd" id="3_w5vsx"]
+
+[node name="CsmExample" type="Node2D" unique_id=1173014445]
+
+[node name="Label" type="Label" parent="." unique_id=1927824137]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "CSM example. Movement + weapon
+
+Controls:
+A / D - move left/right
+W / Space - jump. Hold for higher
+
+Left Mouse Button - attack. Cooldown: 0.5s"
+
+[node name="Level" parent="." unique_id=1929487656 instance=ExtResource("1_6aba7")]
+
+[node name="Hero" parent="." unique_id=848038321 instance=ExtResource("2_w5vsx")]
+position = Vector2(249, 618)
+script = ExtResource("3_w5vsx")

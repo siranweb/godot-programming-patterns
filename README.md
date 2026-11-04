@@ -41,3 +41,24 @@ Scene: `03_prototype/prototype_example.tscn`
 Implemented using [`Node.duplicate()`](https://docs.godotengine.org/en/stable/classes/class_node.html#class-node-method-duplicate). Spawns 2 types of monsters after a certain time interval.
 
 ![prototype_example](./docs/assets/prototype_example.jpg)
+
+### Singleton [[Book](https://gameprogrammingpatterns.com/singleton.html)]
+No example. Can be easily implemented using [autoload](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html).
+It is better to look at the reasons why the author advises against using it.
+
+### [State](./04_state) [[Book](https://gameprogrammingpatterns.com/state.html)]
+Scene: `04_state/fsm_example.tscn`
+
+Simple implementation of moving [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) using Finite State Machine.
+
+Also, take a look at other FSM implementations: [gdquest](https://www.gdquest.com/tutorial/godot/design-patterns/finite-state-machine/), [gd-YAFSM](https://github.com/imjp94/gd-YAFSM), [Machina](https://github.com/sempitern0/machina)... There are lots of them.
+
+![fsm_example](./docs/assets/fsm_example.jpg)
+
+Scene: `04_state/csm_example.tscn`
+
+Simple implementation of moving [CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) with weapon attack using several FSMs (Concurrent State Machines).
+
+![csm_example](./docs/assets/csm_example.jpg)
+
+*I'm too lazy to implement Hierarchical or Pushdown Automata. That's not much harder when you understand simple FSMs.*

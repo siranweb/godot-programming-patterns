@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://buwi3eia6qkbl"]
+
+[ext_resource type="PackedScene" uid="uid://bdssvda52s2wr" path="res://04_state/hero/hero.tscn" id="1_jew1q"]
+[ext_resource type="Script" uid="uid://dy28qn3e0fds" path="res://04_state/hero/fsm_hero.gd" id="2_1npde"]
+[ext_resource type="PackedScene" uid="uid://c1jnqo87t11oy" path="res://04_state/level/level.tscn" id="3_1npde"]
+
+[node name="FsmExample" type="Node2D" unique_id=1147531478]
+
+[node name="Label" type="Label" parent="." unique_id=1188910769]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "FSM example. Only movement states
+
+Controls:
+A / D - move left/right
+W / Space - jump. Hold for higher"
+
+[node name="Level" parent="." unique_id=1929487656 instance=ExtResource("3_1npde")]
+
+[node name="Hero" parent="." unique_id=848038321 instance=ExtResource("1_jew1q")]
+position = Vector2(249, 618)
+script = ExtResource("2_1npde")

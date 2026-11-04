@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://bdssvda52s2wr"]
+
+[ext_resource type="Texture2D" uid="uid://7xwlvqgg1mcu" path="res://icon.svg" id="1_16fbx"]
+
+[sub_resource type="Gradient" id="Gradient_16fbx"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(0.7, 0.3143, 0.091, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_n7o7d"]
+gradient = SubResource("Gradient_16fbx")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n7o7d"]
+size = Vector2(64, 64)
+
+[node name="Hero" type="CharacterBody2D" unique_id=848038321]
+
+[node name="Stick" type="Node2D" parent="." unique_id=1927548091]
+visible = false
+
+[node name="Sprite2D" type="Sprite2D" parent="Stick" unique_id=1700147424]
+position = Vector2(50, 0)
+scale = Vector2(0.21875, 7.5)
+texture = SubResource("GradientTexture1D_n7o7d")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=569250832]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_16fbx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2012514730]
+shape = SubResource("RectangleShape2D_n7o7d")
