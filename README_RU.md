@@ -69,3 +69,6 @@ Russian | [English](./README.md)
 Реализован в виде [Игры "Жизнь"](https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%C2%BB) с использованием [`CanvasItem._draw()`](https://docs.godotengine.org/ru/4.x/classes/class_canvasitem.html#class-canvasitem-private-method-draw).
 
 ![double_buffering_example](./docs/assets/double_buffering_example.jpg)
+
+### Игровой цикл (Game Loop) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/posledovatelnie-shabloni-sequencing-patterns/igrovoi-tsikl-game-loop)]
+Смотрите [SceneTree](https://docs.godotengine.org/ru/4.x/classes/class_scenetree.html).

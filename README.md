@@ -69,3 +69,6 @@ Scene: `05_double_buffering/double_buffering_example.tscn`
 Implemented as [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using [`CanvasItem._draw()`](https://docs.godotengine.org/en/stable/classes/class_canvasitem.html#class-canvasitem-private-method-draw).
 
 ![double_buffering_example](./docs/assets/double_buffering_example.jpg)
+
+### Game Loop [[Book](https://gameprogrammingpatterns.com/game-loop.html)]
+See [SceneTree](https://docs.godotengine.org/en/stable/classes/class_scenetree.html#class-scenetree).
