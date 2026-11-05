@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://caqkh318abi0"]
+
+[ext_resource type="Script" uid="uid://bujwgp8rykp4e" path="res://05_double_buffering/game_of_life/game_of_life.gd" id="1_pobee"]
+
+[node name="GameOfLife" type="Node2D" unique_id=325449727]
+script = ExtResource("1_pobee")

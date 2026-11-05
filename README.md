@@ -62,3 +62,10 @@ Simple implementation of moving [CharacterBody2D](https://docs.godotengine.org/e
 ![csm_example](./docs/assets/csm_example.jpg)
 
 *I'm too lazy to implement Hierarchical or Pushdown Automata. That's not much harder when you understand simple FSMs.*
+
+### [Double Buffering](./05_double_buffering) [[Book](https://gameprogrammingpatterns.com/double-buffer.html)]
+Scene: `05_double_buffering/double_buffering_example.tscn`
+
+Implemented as [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using [`CanvasItem._draw()`](https://docs.godotengine.org/en/stable/classes/class_canvasitem.html#class-canvasitem-private-method-draw).
+
+![double_buffering_example](./docs/assets/double_buffering_example.jpg)

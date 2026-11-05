@@ -62,3 +62,10 @@ Russian | [English](./README.md)
 ![csm_example](./docs/assets/csm_example.jpg)
 
 *Я слишком ленивый для реализации Иерархичной (Hierarchical) или С магазинной памятью (Pushdown Automata). Это не сильно сложнее когда понимаешь принцип простых FSM.*
+
+### [Двойная буферизация (Double Buffering)](./05_double_buffering) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/posledovatelnie-shabloni-sequencing-patterns/dvoinaya-buferizatsiya-double-buffering)]
+Сцена: `05_double_buffering/double_buffering_example.tscn`
+
+Реализован в виде [Игры "Жизнь"](https://ru.wikipedia.org/wiki/%D0%98%D0%B3%D1%80%D0%B0_%C2%AB%D0%96%D0%B8%D0%B7%D0%BD%D1%8C%C2%BB) с использованием [`CanvasItem._draw()`](https://docs.godotengine.org/ru/4.x/classes/class_canvasitem.html#class-canvasitem-private-method-draw).
+
+![double_buffering_example](./docs/assets/double_buffering_example.jpg)

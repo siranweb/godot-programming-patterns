@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cdyc6vvxywm3u"]
+
+[ext_resource type="PackedScene" uid="uid://caqkh318abi0" path="res://05_double_buffering/game_of_life/game_of_life.tscn" id="1_ekd3x"]
+
+[node name="DoubleBufferingExample" type="Node2D" unique_id=405897442]
+
+[node name="GameOfLife" parent="." unique_id=325449727 instance=ExtResource("1_ekd3x")]
