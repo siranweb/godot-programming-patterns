@@ -72,3 +72,14 @@ Russian | [English](./README.md)
 
 ### Игровой цикл (Game Loop) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/posledovatelnie-shabloni-sequencing-patterns/igrovoi-tsikl-game-loop)]
 Смотрите [SceneTree](https://docs.godotengine.org/ru/4.x/classes/class_scenetree.html).
+
+### Метод обновления (Update method) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/posledovatelnie-shabloni-sequencing-patterns/metodi-obnovleniya-update-methods)]
+Смотрите [Уведомления Godot](https://docs.godotengine.org/ru/4.x/tutorials/best_practices/godot_notifications.html), особенно `_process`/`_physics_process`.
+
+### Байткод (Bytecode) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/povedencheskie-shabloni-behavioral-patterns/baitkod-bytecode#mashinnyi-kod-virtualnyi)]
+Это довольно сложная для реализации часть. В Godot уже есть [GDScriptVM](https://deepwiki.com/godotengine/godot/6.3-gdscript-compiler-and-vm) - можно воспользоваться этим преимуществом и не создавать собственный язык программирования.
+Главное — внимательно следить за тем, к каким API открыт доступ.
+Рекомендуется использовать [Ресурсы](https://docs.godotengine.org/ru/4.x/classes/class_resource.html#), чтобы можно было корректировать баланс игры без изменения исходного кода.
+Если же логика оказывается слишком сложной или динамичной (как карты в Slay the Spire 2), на помощь могут прийти другие паттерны проектирования типа **Команды (Command)**.
+
+Что касается поддержки модов, стоит изучить [руководство по моддингу](https://brotato.wiki.spellsandguns.com/Modding) для игры Brotato, в нем также используется [Godot Mod Loader](https://wiki.godotmodding.com/).

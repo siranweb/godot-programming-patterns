@@ -72,3 +72,14 @@ Implemented as [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_
 
 ### Game Loop [[Book](https://gameprogrammingpatterns.com/game-loop.html)]
 See [SceneTree](https://docs.godotengine.org/en/stable/classes/class_scenetree.html#class-scenetree).
+
+### Update method [[Book](https://gameprogrammingpatterns.com/update-method.html)]
+See [Godot notifications](https://docs.godotengine.org/en/stable/tutorials/best_practices/godot_notifications.html), especially `_process`/`_physics_process`.
+
+### Bytecode [[Book](https://gameprogrammingpatterns.com/bytecode.html)]
+Really difficult section to implement. Godot already has [GDScriptVM](https://deepwiki.com/godotengine/godot/6.3-gdscript-compiler-and-vm), so you can use it as advantage - no need to implement your own language.
+Just need to be careful with allowed APIs.
+It's recommended to use [Resources](https://docs.godotengine.org/en/stable/classes/class_resource.html) so anyone can make balancing edits without modifying source code.
+In case if your logic too complicated or dynamic (like cards in Slay the Spire 2) other patterns like **Command** can help.
+
+In case with mods, check out Brotato [modding guide](https://brotato.wiki.spellsandguns.com/Modding), which also uses [Godot Mod Loader](https://wiki.godotmodding.com/).
