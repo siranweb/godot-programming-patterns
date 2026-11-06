@@ -90,3 +90,10 @@ Scene: `06_subclass_sandbox/subclass_sandbox_example.tscn`
 Pattern implemented as shooting with 2 modes.
 
 ![subclass_sandbox_example](./docs/assets/subclass_sandbox_example.jpg)
+
+### [Type Object](./07_type_object) [[Book](https://gameprogrammingpatterns.com/type-object.html)]
+Scene: `07_type_object/type_object_example.tscn`
+
+Implemented using Resource.
+
+![type_object_example](./docs/assets/type_object_example.jpg)

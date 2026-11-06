@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BreedResource" format=3 uid="uid://bgqb8i7v60lv"]
+
+[ext_resource type="Script" uid="uid://urdwui5ngkep" path="res://07_type_object/breeds/breed_resource.gd" id="1_eriik"]
+[ext_resource type="Texture2D" uid="uid://7xwlvqgg1mcu" path="res://icon.svg" id="2_8jujl"]
+
+[resource]
+script = ExtResource("1_eriik")
+health = 20
+name = "Ghost"
+texture = ExtResource("2_8jujl")
+metadata/_custom_type_script = "uid://urdwui5ngkep"

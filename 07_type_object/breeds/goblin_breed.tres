@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="BreedResource" format=3 uid="uid://m1lecshoul35"]
+
+[ext_resource type="Script" uid="uid://urdwui5ngkep" path="res://07_type_object/breeds/breed_resource.gd" id="1_x741c"]
+[ext_resource type="Texture2D" uid="uid://7xwlvqgg1mcu" path="res://icon.svg" id="2_uuk20"]
+
+[resource]
+script = ExtResource("1_x741c")
+health = 30
+name = "Goblin"
+texture = ExtResource("2_uuk20")
+metadata/_custom_type_script = "uid://urdwui5ngkep"

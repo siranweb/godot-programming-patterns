@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dwqk8pkb7pfam"]
+
+[ext_resource type="PackedScene" uid="uid://cqc8of63awij6" path="res://07_type_object/monster/monster.tscn" id="1_fsohr"]
+[ext_resource type="Resource" uid="uid://bgqb8i7v60lv" path="res://07_type_object/breeds/ghost_breed.tres" id="2_d0wcw"]
+[ext_resource type="Resource" uid="uid://m1lecshoul35" path="res://07_type_object/breeds/goblin_breed.tres" id="3_iwqfw"]
+
+[node name="TypeObjectExample" type="Node2D" unique_id=1748209859]
+
+[node name="Monster" parent="." unique_id=527316668 instance=ExtResource("1_fsohr")]
+position = Vector2(485, 290)
+breed = ExtResource("2_d0wcw")
+
+[node name="Monster2" parent="." unique_id=1420820135 instance=ExtResource("1_fsohr")]
+position = Vector2(680, 290)
+breed = ExtResource("3_iwqfw")

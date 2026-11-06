@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cqc8of63awij6"]
+
+[ext_resource type="Script" uid="uid://tjxj7mwau2x8" path="res://07_type_object/monster/monster.gd" id="1_ikm2d"]
+
+[node name="Monster" type="Node2D" unique_id=527316668]
+script = ExtResource("1_ikm2d")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1715200606]
+position = Vector2(0, 41)
+centered = false
+
+[node name="NameLabel" type="Label" parent="." unique_id=1982505800]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Name:"
+
+[node name="HealthLabel" type="Label" parent="." unique_id=65673986]
+offset_top = 19.0
+offset_right = 56.0
+offset_bottom = 42.0
+text = "Health:"

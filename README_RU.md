@@ -90,3 +90,10 @@ Russian | [English](./README.md)
 Паттерн реализован в виде стрельбы с двумя режимами.
 
 ![subclass_sandbox_example](./docs/assets/subclass_sandbox_example.jpg)
+
+### [Объект тип (Type Object)](./07_type_object) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/povedencheskie-shabloni-behavioral-patterns/obekt-tip-type-object)]
+Сцена: `07_type_object/type_object_example.tscn`
+
+Реализовано используя Resource.
+
+![type_object_example](./docs/assets/type_object_example.jpg)
