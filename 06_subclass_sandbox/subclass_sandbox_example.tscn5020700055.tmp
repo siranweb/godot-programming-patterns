@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ce7m0n0alj0fr"]
+
+[ext_resource type="Texture2D" uid="uid://7xwlvqgg1mcu" path="res://icon.svg" id="1_fsnvn"]
+[ext_resource type="Script" uid="uid://cl80l56lqncql" path="res://06_subclass_sandbox/subclass_sandbox_example.gd" id="1_h2hvd"]
+
+[node name="SubclassSandboxExample" type="Node2D" unique_id=377296600]
+script = ExtResource("1_h2hvd")
+
+[node name="Shooter" type="Sprite2D" parent="." unique_id=431223312]
+position = Vector2(640, 360)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_fsnvn")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=2103691613]
+volume_db = -16.0
+max_polyphony = 10

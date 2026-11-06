@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://bn1rombmwp0t6"]
+
+[ext_resource type="Script" uid="uid://csb8mt6d4ciiv" path="res://06_subclass_sandbox/bullet/bullet.gd" id="1_u47cw"]
+
+[sub_resource type="Gradient" id="Gradient_ammgj"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(0.86451364, 0.6077345, 0.13349909, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_n7o7d"]
+gradient = SubResource("Gradient_ammgj")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n7o7d"]
+size = Vector2(12, 6)
+
+[node name="Bullet" type="RigidBody2D" unique_id=697474573]
+collision_layer = 0
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_u47cw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1550863047]
+position = Vector2(0, 2.3841858e-07)
+scale = Vector2(0.046875, 5.9999995)
+texture = SubResource("GradientTexture1D_n7o7d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1293302987]
+shape = SubResource("RectangleShape2D_n7o7d")
+
+[node name="Timer" type="Timer" parent="." unique_id=170237596]
+wait_time = 10.0
+one_shot = true

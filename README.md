@@ -83,3 +83,10 @@ It's recommended to use [Resources](https://docs.godotengine.org/en/stable/class
 In case if your logic too complicated or dynamic (like cards in Slay the Spire 2) other patterns like **Command** can help.
 
 In case with mods, check out Brotato [modding guide](https://brotato.wiki.spellsandguns.com/Modding), which also uses [Godot Mod Loader](https://wiki.godotmodding.com/).
+
+### [Subclass Sandbox](./06_subclass_sandbox) [[Book](https://gameprogrammingpatterns.com/subclass-sandbox.html)]
+Scene: `06_subclass_sandbox/subclass_sandbox_example.tscn`
+
+Pattern implemented as shooting with 2 modes.
+
+![subclass_sandbox_example](./docs/assets/subclass_sandbox_example.jpg)

@@ -83,3 +83,10 @@ Russian | [English](./README.md)
 Если же логика оказывается слишком сложной или динамичной (как карты в Slay the Spire 2), на помощь могут прийти другие паттерны проектирования типа **Команды (Command)**.
 
 Что касается поддержки модов, стоит изучить [руководство по моддингу](https://brotato.wiki.spellsandguns.com/Modding) для игры Brotato, в нем также используется [Godot Mod Loader](https://wiki.godotmodding.com/).
+
+### [Подкласс песочница (Subclass Sandbox)](./06_subclass_sandbox) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/povedencheskie-shabloni-behavioral-patterns/podklass-pesochnitsa-subclass-sandbox)]
+Сцена: `06_subclass_sandbox/subclass_sandbox_example.tscn`
+
+Паттерн реализован в виде стрельбы с двумя режимами.
+
+![subclass_sandbox_example](./docs/assets/subclass_sandbox_example.jpg)
