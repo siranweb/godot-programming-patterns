@@ -97,3 +97,12 @@ Scene: `07_type_object/type_object_example.tscn`
 Implemented using Resource.
 
 ![type_object_example](./docs/assets/type_object_example.jpg)
+
+## [Component](./08_component) [[Book](https://gameprogrammingpatterns.com/component.html)]
+Scene: `08_component/component_example.tscn`
+
+Two cats. The one controlled by you, another - automatically.
+
+*[Asset](https://bowpixel.itch.io/meow-cat-85-animation) by bowpixel*
+
+![component_example](./docs/assets/component_example.jpg)

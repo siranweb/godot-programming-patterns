@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://10f0j86xn8ll"]
+
+[ext_resource type="Script" uid="uid://di8s2qd6tw87u" path="res://08_component/cat/cat.gd" id="1_ny83x"]
+[ext_resource type="SpriteFrames" uid="uid://brgrfplkxp0ds" path="res://08_component/cat/ginger_sprite_frames.tres" id="2_ny83x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n7o7d"]
+size = Vector2(72, 56)
+
+[node name="Cat" type="CharacterBody2D" unique_id=923491767]
+collision_layer = 0
+script = ExtResource("1_ny83x")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=469534270]
+scale = Vector2(4, 4)
+sprite_frames = ExtResource("2_ny83x")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1009212280]
+position = Vector2(4, 36)
+shape = SubResource("RectangleShape2D_n7o7d")

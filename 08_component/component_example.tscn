@@ -1,0 +1,81 @@
+[gd_scene format=3 uid="uid://dnnm5u5uagpyk"]
+
+[ext_resource type="PackedScene" uid="uid://10f0j86xn8ll" path="res://08_component/cat/cat.tscn" id="1_si05g"]
+[ext_resource type="Script" uid="uid://di405fhd8vpw8" path="res://08_component/component_example.gd" id="1_t44nj"]
+[ext_resource type="SpriteFrames" uid="uid://brgrfplkxp0ds" path="res://08_component/cat/ginger_sprite_frames.tres" id="3_dl0d5"]
+[ext_resource type="SpriteFrames" uid="uid://co2q62pmy15vb" path="res://08_component/cat/grey_sprite_frames.tres" id="4_rwhn5"]
+
+[sub_resource type="Gradient" id="Gradient_05p5w"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(0.43129143, 0.24049035, 0.52532, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_n7o7d"]
+gradient = SubResource("Gradient_05p5w")
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n7o7d"]
+size = Vector2(1280, 41)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_si05g"]
+size = Vector2(256.5, 39)
+
+[node name="ComponentExample" type="Node2D" unique_id=1369719070]
+script = ExtResource("1_t44nj")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=155584338]
+position = Vector2(128, 679)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1076081672]
+position = Vector2(512.00006, 20.25)
+scale = Vector2(5.0000005, 41.5)
+texture = SubResource("GradientTexture1D_n7o7d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1180780388]
+position = Vector2(512, 20.5)
+shape = SubResource("RectangleShape2D_n7o7d")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1016657935]
+position = Vector2(370, 520)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2" unique_id=510930962]
+position = Vector2(1.0000145, 20.500011)
+scale = Vector2(1, 40)
+texture = SubResource("GradientTexture1D_n7o7d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=1283527137]
+position = Vector2(0.75, 20.5)
+shape = SubResource("RectangleShape2D_si05g")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=832205737]
+position = Vector2(970, 520)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D3" unique_id=782789418]
+position = Vector2(1.0000145, 20.500011)
+scale = Vector2(1, 40)
+texture = SubResource("GradientTexture1D_n7o7d")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3" unique_id=1917409469]
+position = Vector2(0.75, 20.5)
+shape = SubResource("RectangleShape2D_si05g")
+
+[node name="InputCat" parent="." unique_id=923491767 instance=ExtResource("1_si05g")]
+position = Vector2(370, 457)
+sprite_frames = ExtResource("3_dl0d5")
+
+[node name="AutoCat" parent="." unique_id=2020770417 instance=ExtResource("1_si05g")]
+position = Vector2(970, 457)
+sprite_frames = ExtResource("4_rwhn5")
+
+[node name="LeftLabel" type="Label" parent="." unique_id=1082570526]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Ginger cat - controlled by you
+
+A/D - move left/right
+W/Space - jump"
+
+[node name="RightLabel" type="Label" parent="." unique_id=1575965454]
+offset_left = 1053.0
+offset_right = 1280.0
+offset_bottom = 101.0
+text = "Grey cat - controlled by \"AI\""
+horizontal_alignment = 2

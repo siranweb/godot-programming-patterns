@@ -97,3 +97,12 @@ Russian | [English](./README.md)
 Реализовано используя Resource.
 
 ![type_object_example](./docs/assets/type_object_example.jpg)
+
+## [Компонент (Component)](./08_component) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-snizheniya-svyaznosti-decoupling-patterns/komponent-component#zadacha)]
+Сцена: `08_component/component_example.tscn`
+
+Два кота. Один управляется вами, другой - автоматически.
+
+*[Asset](https://bowpixel.itch.io/meow-cat-85-animation) by bowpixel*
+
+![component_example](./docs/assets/component_example.jpg)
