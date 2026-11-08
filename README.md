@@ -3,13 +3,22 @@
 
 This is Godot adaption of patterns of [Game Programming Patterns by Robert Nystrom](https://gameprogrammingpatterns.com/contents.html) book.
 
-Prepared using **Godot v4.7.2**.
+This repository was created primarily for my own practice in analyzing these patterns.
+
+Prepared using **Godot v4.7.2** and **GDScript**.
 
 ![cover](https://gameprogrammingpatterns.com/images/splash.jpg)
 
 ## How to use it
+Below I made list of patterns from the book.
+
+Some patterns have implementation, some not. I left some links to godot docs where it makes sense.
+
 * Download this repository and open it with Godot.
 * Open any pattern folder and launch the scene (like `01_command/command_example.tscn`).
+
+## Contribution
+Feel free to open a PR, if you disagree with something or would like to add more examples. Some of the patterns are need it.
 
 ## Patterns
 ### [Command](./01_command) [[Book](https://gameprogrammingpatterns.com/command.html)]

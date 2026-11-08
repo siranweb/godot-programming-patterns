@@ -3,13 +3,23 @@ Russian | [English](./README.md)
 
 Адаптация паттернов в Godot из книги [Шаблоны игрового программирования Роберта Найстрома](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya).
 
-Подготовлено на **Godot v4.7.2**.
+Репозиторий составлялся в первую очередь для собственной практики разбора этих паттернов.
+
+Подготовлено на **Godot v4.7.2** и **GDScript**.
 
 ![cover](https://gameprogrammingpatterns.com/images/splash.jpg)
 
 ## Как пользоваться
+Ниже я составил список паттернов из книги.
+
+У некоторых паттернов есть реализация, у некоторых - нет. Я оставил ссылки на документацию годота, где это уместно.
+
+
 * Скачайте этот репозиторий и откройте его через Godot.
 * Откройте любую директорию паттерна и запустите сцену (например, `01_command/command_example.tscn`).
+
+## Внести вклад
+Не бойтесь открывать PR, если с чем-то не согласны или хотите добавить больше примеров. Некоторым паттернам их недостает.
 
 ## Паттерны
 ### [Команда (Command)](./01_command) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/obzor-shablonov-proektirovaniya/komanda-command)]
