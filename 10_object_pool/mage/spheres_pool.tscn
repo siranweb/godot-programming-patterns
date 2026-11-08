@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://ryxhhmr14yc8"]
+
+[ext_resource type="Script" uid="uid://bvlkmt70i1vm0" path="res://10_object_pool/mage/spheres_pool.gd" id="1_a4ghr"]
+
+[node name="SpheresPool" type="Node2D" unique_id=1747690977]
+script = ExtResource("1_a4ghr")

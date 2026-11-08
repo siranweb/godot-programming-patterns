@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dx1jnfv0ycvnr"]
+
+[ext_resource type="PackedScene" uid="uid://ryxhhmr14yc8" path="res://10_object_pool/mage/spheres_pool.tscn" id="1_6sgmb"]
+[ext_resource type="Script" uid="uid://hcfqvg4hebrd" path="res://10_object_pool/mage/mage.gd" id="1_7q1c3"]
+[ext_resource type="Texture2D" uid="uid://7xwlvqgg1mcu" path="res://icon.svg" id="2_0hhv4"]
+
+[node name="Mage" type="Node2D" unique_id=864489825]
+script = ExtResource("1_7q1c3")
+
+[node name="SpheresPool" parent="." unique_id=1747690977 instance=ExtResource("1_6sgmb")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=611897632]
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("2_0hhv4")

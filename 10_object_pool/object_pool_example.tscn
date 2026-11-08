@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://b1sgfssusreo6"]
+
+[ext_resource type="PackedScene" uid="uid://dx1jnfv0ycvnr" path="res://10_object_pool/mage/mage.tscn" id="1_dkkq5"]
+
+[node name="ObjectPoolExample" type="Node2D" unique_id=471489486]
+
+[node name="Mage" parent="." unique_id=864489825 instance=ExtResource("1_dkkq5")]
+position = Vector2(640, 360)
+
+[node name="Label" type="Label" parent="." unique_id=1737605039]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Mouse - aim
+Left Mouse Button - shoot sphere
+
+Pool: 8 spheres"

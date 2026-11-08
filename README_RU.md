@@ -119,3 +119,16 @@ If it's not enough, can be easily implemented using array + `pop_front()`.
 Реализован как синглтон в автозагрузке.
 
 ![service_locator_example](./docs/assets/service_locator_example.jpg)
+
+## Локальность данных (Data Locality) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-optimizatsii/lokalnost-dannih-data-locality)]
+Не требует реализации. Смотрите [Оптимизация CPU](https://docs.godotengine.org/ru/4.x/tutorials/performance/cpu_optimization.html).
+
+## Грязный флаг (Dirty Flag) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-optimizatsii/gryaznii-flag-dirty-flag)]
+Не требует реализации.
+
+## [Пул объектов (Object Pool)](./10_object_pool) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-optimizatsii/pul-obektov-object-pool)]
+Сцена: `10_object_pool/object_pool_example.tscn`
+
+Маг стреляет сферами из своего пула.
+
+![object_pool_example](./docs/assets/object_pool_example.jpg)

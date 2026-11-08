@@ -119,3 +119,16 @@ Scene: `09_service_locator/service_locator_example.tscn`
 Implemented as autoloaded singleton.
 
 ![service_locator_example](./docs/assets/service_locator_example.jpg)
+
+## Data Locality [[Book](https://gameprogrammingpatterns.com/data-locality.html)]
+No need to implement. See [CPU optimization](https://docs.godotengine.org/en/stable/tutorials/performance/cpu_optimization.html#).
+
+## Dirty Flag [[Book](https://gameprogrammingpatterns.com/dirty-flag.html)]
+No need to implement.
+
+## [Object Pool](./10_object_pool) [[Book](https://gameprogrammingpatterns.com/object-pool.html)]
+Scene: `10_object_pool/object_pool_example.tscn`
+
+Mage shoots spheres from he's spheres pool.
+
+![object_pool_example](./docs/assets/object_pool_example.jpg)
