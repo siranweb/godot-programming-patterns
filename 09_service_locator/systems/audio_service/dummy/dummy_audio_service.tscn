@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cagnim5rlohs8"]
+
+[ext_resource type="Script" uid="uid://csarvouvsmdln" path="res://09_service_locator/systems/audio_service/dummy/dummy_audio_service.gd" id="1_0c0ob"]
+
+[node name="DummyAudioService" type="Node2D" unique_id=635428008]
+script = ExtResource("1_0c0ob")

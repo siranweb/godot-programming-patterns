@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bni5biugichbi"]
+
+[ext_resource type="Script" uid="uid://d14qkgmnxjca0" path="res://09_service_locator/service_locator_example.gd" id="1_7gbuw"]
+
+[node name="ServiceLocatorExample" type="Node2D" unique_id=1705434084]
+script = ExtResource("1_7gbuw")
+
+[node name="Label" type="Label" parent="." unique_id=258619594]
+offset_left = 414.0
+offset_top = 336.0
+offset_right = 820.0
+offset_bottom = 385.0
+text = "Nothing to show.
+See \"systems\" dir for service locator implementation"
+horizontal_alignment = 1

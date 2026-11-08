@@ -106,3 +106,16 @@ Russian | [English](./README.md)
 *[Asset](https://bowpixel.itch.io/meow-cat-85-animation) by bowpixel*
 
 ![component_example](./docs/assets/component_example.jpg)
+
+## Очередь событий (Event Queue) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-snizheniya-svyaznosti-decoupling-patterns/ochered-sobitii-event-queue)]
+Без примера. Используйте [`call_deferred()`](https://docs.godotengine.org/ru/4.x/classes/class_callable.html#class-callable-method-call-deferred) для методов или [`CONNECT_DEFERRED`](https://docs.godotengine.org/ru/4.x/classes/class_object.html#id5) для сигналов.
+If it's not enough, can be easily implemented using array + `pop_front()`.
+
+Также одна из реализаций [Шины событий (Event Bus)](https://dev.to/bajathefrog/riding-the-event-bus-in-godot-ped).
+
+## [Поиск службы (Service Locator)](./09_service_locator) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-snizheniya-svyaznosti-decoupling-patterns/poisk-sluzhbi-service-locator)]
+Сцена: `09_service_locator/service_locator_example.tscn`
+
+Реализован как синглтон в автозагрузке.
+
+![service_locator_example](./docs/assets/service_locator_example.jpg)

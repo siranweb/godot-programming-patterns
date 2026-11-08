@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://canou640yud8q"]
+
+[ext_resource type="Script" uid="uid://d3kat5oyrkqw4" path="res://09_service_locator/systems/audio_service/audio_service.gd" id="1_00wnu"]
+
+[node name="AudioService" type="Node2D" unique_id=2010385906]
+script = ExtResource("1_00wnu")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1344764305]

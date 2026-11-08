@@ -106,3 +106,16 @@ Two cats. The one controlled by you, another - automatically.
 *[Asset](https://bowpixel.itch.io/meow-cat-85-animation) by bowpixel*
 
 ![component_example](./docs/assets/component_example.jpg)
+
+## Event Queue [[Book](https://gameprogrammingpatterns.com/event-queue.html)]
+No example. Use [`call_deferred()`](https://docs.godotengine.org/en/stable/classes/class_callable.html#class-callable-method-call-deferred) for methods or [`CONNECT_DEFERRED`](https://docs.godotengine.org/en/stable/classes/class_object.html#enumerations) for signals.
+If it's not enough, can be easily implemented using array + `pop_front()`.
+
+And there some implementation of [Event Bus](https://dev.to/bajathefrog/riding-the-event-bus-in-godot-ped).
+
+## [Service Locator](./09_service_locator) [[Book](https://gameprogrammingpatterns.com/service-locator.html)]
+Scene: `09_service_locator/service_locator_example.tscn`
+
+Implemented as autoloaded singleton.
+
+![service_locator_example](./docs/assets/service_locator_example.jpg)
