@@ -132,3 +132,6 @@ If it's not enough, can be easily implemented using array + `pop_front()`.
 Маг стреляет сферами из своего пула.
 
 ![object_pool_example](./docs/assets/object_pool_example.jpg)
+
+## Пространственное разбиение (Spatial Partition) [[Книга](https://jabocrack1.gitbook.io/shabloni-igrovogo-programmirovaniya/shabloni-optimizatsii/prostranstvennoe-razbienie)]
+Я слишком ленив, чтобы реализовывать такой частный случай. Там очень много структур, которые можно использовать. Потребуется немного изучения.

@@ -132,3 +132,6 @@ Scene: `10_object_pool/object_pool_example.tscn`
 Mage shoots spheres from he's spheres pool.
 
 ![object_pool_example](./docs/assets/object_pool_example.jpg)
+
+## Spatial Partition [[Book](https://gameprogrammingpatterns.com/spatial-partition.html)]
+Too lazy to implement such special case. There are many structures that you can use. That's need some investigation.
